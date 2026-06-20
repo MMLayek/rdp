@@ -25,7 +25,7 @@ RUN wget https://github.com/novnc/noVNC/archive/refs/heads/master.zip -O /tmp/no
     rm -rf /tmp/novnc.zip /tmp/noVNC-master
 
 
-ENV ISO_URL="https://go.microsoft.com/fwlink/?linkid=2289029&clcid=0x409&culture=en-us&country=us"
+ENV ISO_URL="https://go.microsoft.com/fwlink/p/?LinkID=2195404&clcid=0x409&culture=en-us&country=US"
 
 
 RUN echo '#!/bin/bash\n\
