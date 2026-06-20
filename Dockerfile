@@ -48,7 +48,7 @@ fi\n\
 \n\
 # Download ISO if needed\n\
 if [ ! -f "/iso/os.iso" ]; then\n\
-  echo "📥 Downloading Windows 11 LTSC ISO..."\n\
+  echo "📥 Downloading Windows 10 LTSC ISO..."\n\
   wget --content-disposition --trust-server-names "$ISO_URL" -O "/iso/os.iso"\n\
 fi\n\
 \n\
